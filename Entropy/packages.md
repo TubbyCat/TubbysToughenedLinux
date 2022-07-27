@@ -13,6 +13,9 @@ sudo apt-get install jitterentropy-rngd haveged rng-tools
 ```
 **Enable Daemons**
 ```sh 
-#EXAMPLE
+#EXAMPLE SYSTEMD
 sudo systemctl --now enable $servicename
+
+#EXAMPLE OTHER
+sudo service $servicename start
 ```
