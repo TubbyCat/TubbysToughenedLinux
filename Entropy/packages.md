@@ -11,3 +11,8 @@ Run apt info or equivalents to determine the objectives of aforementioned packag
 sudo apt-get install jitterentropy-rngd haveged rng-tools 
 # no explicit 'rngd' exists in debian repos
 ```
+**Enable Daemons**
+```sh 
+#EXAMPLE
+sudo systemctl --now enable $servicename
+```
